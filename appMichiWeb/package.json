@@ -1,0 +1,11 @@
+{
+  "name": "appmichiweb",
+  "version": "1.3.6",
+  "private": true,
+  "description": "Panel web IoT appMichiWeb, MichiCasa y reloj Orizaba130",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1 --directory public",
+    "deploy": "firebase deploy --only hosting:michi"
+  }
+}
