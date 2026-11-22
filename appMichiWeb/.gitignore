@@ -1,0 +1,18 @@
+# Credenciales, respaldos y artefactos locales
+**/secrets.h
+**/secrets.local.h
+.env
+.env.*
+!.env.example
+.firebaserc
+.firebase/
+firebase-debug.log*
+node_modules/
+build/
+work/
+private/
+*.bin
+*.elf
+*.map
+*.log
+.DS_Store
